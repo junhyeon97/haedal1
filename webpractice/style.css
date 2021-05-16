@@ -1,18 +1,27 @@
 .green{
     color: green;
+    font-size: 35px;
+}
+
+.blue{
+    color: blue;
+    font-size: 35px;
 }
 
 .red{
     color: red;
-    font-weight: 800;
-    font-style: italic;
-}
+    font-size: 35px;
+    }
 
 #first{
-    font-size: 35px;
-    font-style: italic;
+
+    font-style: normal;
 }
 
 #second{
-    font-size: 20px;
+    font-style: bold;
+}
+
+#third{
+    font-style: italic;
 }
