@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>web week5</title>
+    <style>
+    html, body{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size:45px;
+        text-align: center;
+        border-bottom:1px solid gray;
+        margin:0;
+        padding:20px;
+        color: black;
+    }
+    ol{
+        list-style: none;
+
+    }
+    a{
+        text-decoration: none;
+        color: white;
+
+    }
+    li{
+        margin:10px;
+        border-radius:40%;
+        text-align: center;
+        background-color: black;
+        font-size: 20px;
+        transition:  margin-left 1s,margin-right 1s;
+    }
+    li:hover{
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-up: 0px;
+        margin-down: 0px;
+    }
+     #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:0px;
+    }
+    #grid #article{
+      padding-left:25px;
+      border-left:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+     @media(max-width:800px) {
+        div{
+          display:none;
+        }
+      }
+
+    </style>
+</head>
+<body>
+    <a href="index.html"><h1>기타치러오세요</h1></a>
+    <div id="grid">
+    <nav>
+    <ol>
+        <li><a href="1.html">통기타</a></li><br>
+        <li><a href="2.html">일렉기타</a></li><br>
+        <li><a href="3.html">클래식기타</a></li><br>
+    </ol>
+    </nav>
+    <div id="article">
+        <h2>클래식기타</h2>
+        <p>
+            클래식 기타(영어: Classical Guitar)는 양의 창자를 꼬아 만든 거트줄이나 나일론줄을 사용하는 기타로 손으로 뜯어서 멜로디와 화음을 동시에 연주하는 독주 악기로 많이 쓰인다.
+            클래식 기타로 클래식 음악만 연주하는 것은 아니며 포크, 재즈, 플라멩코 등 다양한 장르를 연주한다.
+            오늘날의 현대 클래식 기타는 19세기 스페인 제작가 안토니오 데 토레스 후라도(:en:Antonio de Torres Jurado)에 의해 자리잡았다. 그래서 현대 클래식 기타를 스패니시 기타(Spanish guitar)라고도 부른다.
+        </p>
+      </div>
+
+    </div>
+</body>
+</html>

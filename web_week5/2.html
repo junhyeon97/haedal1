@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>web week5</title>
+    <style>
+    html, body{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size:45px;
+        text-align: center;
+        border-bottom:1px solid gray;
+        margin:0;
+        padding:20px;
+        color: black;
+    }
+    ol{
+        list-style: none;
+
+    }
+    a{
+        text-decoration: none;
+        color: white;
+
+    }
+    li{
+        margin:10px;
+        border-radius:40%;
+        text-align: center;
+        background-color: black;
+        font-size: 20px;
+        transition:  margin-left 1s,margin-right 1s;
+    }
+    li:hover{
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-up: 0px;
+        margin-down: 0px;
+    }
+     #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:0px;
+    }
+    #grid #article{
+      padding-left:25px;
+      border-left:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+     @media(max-width:800px) {
+        div{
+          display:none;
+        }
+      }
+
+    </style>
+</head>
+<body>
+    <a href="index.html"><h1>기타치러오세요</h1></a>
+    <div id="grid">
+    <nav>
+    <ol>
+        <li><a href="1.html">통기타</a></li><br>
+        <li><a href="2.html">일렉기타</a></li><br>
+        <li><a href="3.html">클래식기타</a></li><br>
+    </ol>
+    </nav>
+    <div id="article">
+        <h2>일렉기타</h2>
+        <p>
+            전기 기타(電氣 guitar, electric guitar)는 현의 진동을 픽업에서 전기 신호로 바꾸어 앰프(amplifier) 소리를 내는 기타이다. 보통은 일렉 기타라는 표현을 많이 쓴다. 한편 전자 기타라고 표현하는 경우도 종종 보이는데, 이는 틀린 용어다.
+            앰프를 연결하지 않아도 소리가 나기는 하지만, 울림통이 있는 다른 기타에 비해 음량이 매우 작다. 가변저항의 일종인 볼륨 노브(volume knob)로 음량을 조절할 수 있으며, 이펙터(effector)를 이용하여 다양한 소리를 만들어 낼 수 있다. 주로 피크를 이용하여 연주하며 간혹 손가락이나 다른 도구로 연주하기도 한다. 전기 신호를 이용하기 때문에 다른 기타와 구별되는 독특한 주법이나 연주 형태가 많다.
+        </p>
+
+      </div>
+
+    </div>
+</body>
+</html>
